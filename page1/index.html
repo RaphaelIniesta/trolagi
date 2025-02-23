@@ -10,6 +10,34 @@
 
 </head>
     <body>
-        <h1>Olá, mundo!</h1>
+        <form action="#" method="post">
+            <section class="input">
+                <label class="label"> Número do cartão </label>
+                <input type="number" id="number" required placeholder="Número" max="12">
+            </section>
+
+            <section class="input">
+                <label class="label"> Código de Segurança </label>
+                <input type="number" id="code" required placeholder="Código">
+            </section>
+
+            <section class="input">
+                <label class="label"> CPF do Titular </label>
+                <input type="number" id="cpf" required placeholder="CPF">
+            </section>
+
+            <section class="input">
+                <label class="label"> Nome completo do titular </label>
+                <input type="text" id="nome" required placeholder="Nome">
+            </section>
+
+            <section class="input">
+                <label class="label"> Data de validade </label>
+                <input type="date" id="date" required placeholder="Validade">
+            </section>
+
+            <button type="submit"> Verificar </button>
+
+        </form>
     </body>
 </html>
