@@ -23,8 +23,11 @@
     </body>
 
     <script>
-        let is_mobile = detectMobile();
         document.getElementById("button1").addEventListener("mouseenter", function() {
+            moveButton(this);
+        });
+
+        document.getElementById("button1").addEventListener("click", function() {
             moveButton(this);
         });
     </script>
